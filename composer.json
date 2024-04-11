@@ -1,0 +1,21 @@
+{
+    "name": "jmlocke1/activerecord",
+    "description": "Implementación propia de ActiveRecord en PHP",
+    "type": "library",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Jmlocke1\\Activerecord\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Josemi",
+            "email": "worldcode.info@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    }
+}
